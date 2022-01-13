@@ -175,7 +175,6 @@ function showbooks() {
     else {
       bookObj = JSON.parse(mybook);
     }
-    console.log(bookObj[0].name);
     tableBody = document.getElementById('tableBody');
     bookObj.forEach(function (element, index) {
         let uiString = `<tr>
